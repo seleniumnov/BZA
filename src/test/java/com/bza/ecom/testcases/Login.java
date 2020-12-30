@@ -64,6 +64,7 @@ public class Login {
 	}
 
 	public void takeScreenShot(String name) {
+		System.out.println("the");
 		try {
 			File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 			des = new File("./ScreenShots/" + name + ".png");
