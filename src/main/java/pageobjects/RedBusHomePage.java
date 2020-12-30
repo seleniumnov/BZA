@@ -1,4 +1,4 @@
-package seleniumpracticedec;
+package pageobjects;
 
 import java.util.List;
 
