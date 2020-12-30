@@ -34,7 +34,7 @@ public class Login {
 	ExtentHtmlReporter htmlreport;
 	WebDriver driver;
 	File des;
-//Jagguu
+//Test
 	@BeforeSuite
 	public void configReport() {
 		extent = new ExtentReports();
